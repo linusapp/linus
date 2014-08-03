@@ -81,6 +81,8 @@ GEM
     devise-encryptable (0.2.0)
       devise (>= 2.1.0)
     dotenv-deployment (0.0.2)
+    email_validator (1.4.0)
+      activemodel
     erubis (2.7.0)
     execjs (2.2.1)
     hike (1.2.3)
@@ -261,6 +263,7 @@ DEPENDENCIES
   devise-async
   devise-encryptable
   dotenv-deployment
+  email_validator
   hiredis (~> 0.4.5)
   jbuilder (~> 2.0)
   jquery-rails

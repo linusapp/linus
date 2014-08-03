@@ -9,7 +9,7 @@
         text-align: center;
       }
       p {
-        @include Lato;
+        @include Lato-Light;
         font-size: 22px;
         color: $clouds;
         text-align: center;
@@ -17,9 +17,14 @@
     }
     #signup {
       input {
+        @include Lato-Light;
         font-size: 2em;
         line-height: 2em;
         height: 2em;
+      }
+      #submit {
+        @include Lato-Bold;
+        font-size: 22px;
       }
     }
   }

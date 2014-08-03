@@ -32,6 +32,7 @@ code {
 
       h2.panel-title {
         @include Lato-Bold;
+        font-size: 20px;
       }
     }
     .panel-body {
@@ -41,5 +42,28 @@ code {
       border: none;
       background: $silver;
     }
+  }
+}
+
+.alert {
+  border: none;
+  @include Lato-Light;
+  font-size: 20px;
+
+  &.alert-danger {
+    background: $pomegranate;
+    color: $clouds;
+  }
+  &.alert-success { // Green
+    background: $nephritis;
+    color: $clouds;
+  }
+  &.alert-warning { // Yellow
+    background: $pumpkin;
+    color: $clouds;
+  }
+  &.alert-info { // Blue
+    background: $belize-hole;
+    color: $clouds;
   }
 }
