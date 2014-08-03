@@ -17,7 +17,7 @@ set :ssh_options, {
 set :linked_files, %w{config/linus.env.development config/linus.env.production}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 set :keep_releases, 5
-set :sidekiq_env, 'development'
+set :sidekiq_env, :production
 
 namespace :deploy do
   desc 'Restart application'
