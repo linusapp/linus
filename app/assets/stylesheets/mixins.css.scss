@@ -1,0 +1,43 @@
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin Lobster {
+  font-family: Lobster, cursive;
+}
+
+@mixin Lato {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+}
+
+@mixin Lato-Light {
+  @include Lato;
+  font-weight: 100;
+}
+
+@mixin Lato-Bold {
+  @include Lato;
+  font-weight: 700;
+}
+
+@mixin Montserrat {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+}
+
+@mixin Inconsolata {
+  font-family: Inconsolata, monospace;
+}
+
+@mixin Headerify($font-size: 50, $color: #fff) {
+  @include Lobster;
+  font-size: $font-size + px;
+  font-weight: 700;
+  color: $color;
+  text-shadow: 0 1px 1px #666;
+}

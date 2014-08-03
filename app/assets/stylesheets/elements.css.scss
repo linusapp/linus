@@ -1,0 +1,23 @@
+body {
+  background-color: $belize-hole;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+code {
+  background: $wet-asphalt;
+  color: $clouds;
+}
+
+.thumbnail {
+  background-color: $clouds;
+  // border-color: $silver;
+  border: none;
+  // box-shadow: none;
+
+  .caption {
+    color: $midnight-blue;
+  }
+}

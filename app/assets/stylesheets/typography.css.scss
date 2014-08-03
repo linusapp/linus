@@ -1,0 +1,42 @@
+div, p, span, header, footer, input {
+  @include Lato;
+}
+
+pre, code, span {
+  @include Inconsolata;
+}
+
+h1, h2, h3, h4, h5 {
+  @include Montserrat;
+
+  &.section-header {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 3px #222;
+
+    &.flat {
+      text-shadow: none;
+      letter-spacing: -1px;
+      color: $wet-asphalt;
+    }
+  }
+
+  &.section-subheader {
+    @include Lato;
+    color: #222;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+h3, h4 {
+  font-weight: 400;
+}
+
+.centered {
+  text-align: center;
+}

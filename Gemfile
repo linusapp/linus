@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'dotenv-deployment'
+gem 'autoprefixer-rails'
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap-sass'
 gem 'bourbon'
