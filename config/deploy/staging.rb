@@ -1,0 +1,1 @@
+server '208.94.241.170', user: 'root', roles: %w{web app db}
