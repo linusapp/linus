@@ -68,6 +68,14 @@ GEM
     colorize (0.7.3)
     connection_pool (2.0.0)
     debug_inspector (0.0.2)
+    devise (3.2.4)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      thread_safe (~> 0.1)
+      warden (~> 1.2.3)
+    devise-encryptable (0.2.0)
+      devise (>= 2.1.0)
     dotenv-deployment (0.0.2)
     erubis (2.7.0)
     execjs (2.2.1)
@@ -98,6 +106,7 @@ GEM
       net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
     netrc (0.7.7)
+    orm_adapter (0.5.0)
     pg (0.17.1)
     polyglot (0.3.5)
     pusher (0.14.0)
@@ -225,6 +234,8 @@ GEM
     unicorn-rails (2.1.1)
       rack
       unicorn
+    warden (1.2.3)
+      rack (>= 1.0)
     yajl-ruby (1.1.0)
 
 PLATFORMS
@@ -241,6 +252,8 @@ DEPENDENCIES
   capistrano-rails
   capistrano-sidekiq
   coffee-rails (~> 4.0.0)
+  devise
+  devise-encryptable
   dotenv-deployment
   hiredis (~> 0.4.5)
   jbuilder (~> 2.0)

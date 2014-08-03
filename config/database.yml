@@ -12,8 +12,8 @@ default: &default
 
 development:
   <<: *default
-  database: <%= ENV['DATABASE_NAME'] %>
-  user: <%= ENV['DATABASE_USER'] %>
+  database: linus_dev
+  user: linus_dev
   password: <%= ENV['DATABASE_PASSWORD'] %>
 
 # Warning: The database defined as "test" will be erased and
@@ -25,6 +25,6 @@ test:
 
 production:
   <<: *default
-  database: <%= ENV['DATABASE_NAME'] %>
-  user: <%= ENV['DATABASE_USER'] %>
+  database: linus_prod
+  user: linus_prod
   password: <%= ENV['DATABASE_PASSWORD'] %>
