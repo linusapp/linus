@@ -74,6 +74,8 @@ GEM
       railties (>= 3.2.6, < 5)
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
+    devise-async (0.9.0)
+      devise (~> 3.2)
     devise-encryptable (0.2.0)
       devise (>= 2.1.0)
     dotenv-deployment (0.0.2)
@@ -253,6 +255,7 @@ DEPENDENCIES
   capistrano-sidekiq
   coffee-rails (~> 4.0.0)
   devise
+  devise-async
   devise-encryptable
   dotenv-deployment
   hiredis (~> 0.4.5)
