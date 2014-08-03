@@ -21,3 +21,25 @@ code {
     color: $midnight-blue;
   }
 }
+
+.panel {
+  &.panel-default {
+    border: none;
+
+    .panel-heading {
+      background: $midnight-blue;
+      color: $nephritis;
+
+      h2.panel-title {
+        @include Lato-Bold;
+      }
+    }
+    .panel-body {
+      background: $clouds;
+    }
+    .panel-footer {
+      border: none;
+      background: $silver;
+    }
+  }
+}

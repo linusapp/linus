@@ -1,3 +1,26 @@
-// Place all the styles related to the splash controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#splash {
+  #content {
+    #logo {
+      // margin-top: 50px;
+    }
+    #blurb {
+      h2 {
+        color: $midnight-blue;
+        text-align: center;
+      }
+      p {
+        @include Lato;
+        font-size: 22px;
+        color: $clouds;
+        text-align: center;
+      }
+    }
+    #signup {
+      input {
+        font-size: 2em;
+        line-height: 2em;
+        height: 2em;
+      }
+    }
+  }
+}

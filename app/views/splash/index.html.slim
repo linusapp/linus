@@ -1,2 +1,24 @@
-h1 Splash#index
-p Find me in app/views/splash/index.html.slim
+#splash
+  .row
+    .col-sm-8.col-sm-offset-2#content
+      .row#logo
+        .col-sm-12
+          = image_tag "Linus_Logo.svg"
+      .row#blurb
+        .col-sm-12
+          h2 Welcome to Linus. Your life as a pet owner is about to get really easy.
+          / p I built Linus because I recently rescued a tiny little kitten (can you guess his name?) and I had no idea what I was doing. Keeping track of his meal times, play times, appointments, and medicine schedules was getting overwhelming. Thus, Linus was born.
+          p Using Linus, you can manage every single detail of your pets' lives so you never have to wonder again when you need to feed them or give them medicine again. Linus will keep track of all those schedules for you.
+      .row#signup
+        .col-sm-12
+          .panel.panel-default
+            .panel-heading
+              h2.panel-title Sign up for the Beta!
+            .panel-body
+              form
+                .form-group
+                  input.form-control#email type="email" placeholder="What's your email address?"
+                  p.help-block Nothing nefarious will happen to your email. Linus and I promise.
+            .panel-footer
+              a.btn.btn-lg.btn-block.btn-primary.pull-right Sign me up for the Linus Beta!
+              .clearfix
