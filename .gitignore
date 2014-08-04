@@ -18,3 +18,4 @@
 # Ignore all .env files
 *.env
 *.env.*
+.cap_tasks~
