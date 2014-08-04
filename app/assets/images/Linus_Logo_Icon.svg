@@ -3,14 +3,15 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-<g>
-	<circle fill="#F1C40F" stroke="#000000" stroke-width="10" stroke-miterlimit="10" cx="256.7" cy="283.2" r="185.2"/>
-	<polyline fill="#F1C40F" stroke="#000000" stroke-width="10" stroke-miterlimit="10" points="87.2,217.2 18.1,43.5 191.8,112.6 	
-		"/>
-	<polyline fill="#F1C40F" stroke="#000000" stroke-width="10" stroke-miterlimit="10" points="426,217.2 494.2,43.5 320.5,111.7 	
-		"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="333" cy="252.7" r="59.2"/>
-	<g>
+<g display="none">
+	
+		<circle display="inline" fill="#F1C40F" stroke="#000000" stroke-width="10" stroke-miterlimit="10" cx="256.7" cy="283.2" r="185.2"/>
+	<polyline display="inline" fill="#F1C40F" stroke="#000000" stroke-width="10" stroke-miterlimit="10" points="87.2,217.2 
+		18.1,43.5 191.8,112.6 	"/>
+	<polyline display="inline" fill="#F1C40F" stroke="#000000" stroke-width="10" stroke-miterlimit="10" points="426,217.2 
+		494.2,43.5 320.5,111.7 	"/>
+	<circle display="inline" stroke="#000000" stroke-miterlimit="10" cx="333" cy="252.7" r="59.2"/>
+	<g display="inline">
 		<rect x="117.5" y="251.5" width="118.4" height="2.5"/>
 		<g>
 			<path d="M235.9,249.5c-39.5,0-78.9,0-118.4,0c1.5,1.5,3,3,4.5,4.5c0-0.8,0-1.7,0-2.5c-1.5,1.5-3,3-4.5,4.5c39.5,0,78.9,0,118.4,0
@@ -18,9 +19,9 @@
 				c-2.5,0-4.5,2-4.5,4.5c0,0.8,0,1.7,0,2.5c0,2.5,2,4.5,4.5,4.5c39.5,0,78.9,0,118.4,0C241.7,258.5,241.7,249.5,235.9,249.5z"/>
 		</g>
 	</g>
-	<path stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M282.1,328.1l-19.5,26.2c-3.2,4.2-11,4.2-14.2,0l-19.5-26.2
-		c-3.2-4.2,0.8-9.5,7.1-9.5h39C281.3,318.5,285.2,323.8,282.1,328.1z"/>
-	<g>
+	<path display="inline" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M282.1,328.1l-19.5,26.2
+		c-3.2,4.2-11,4.2-14.2,0l-19.5-26.2c-3.2-4.2,0.8-9.5,7.1-9.5h39C281.3,318.5,285.2,323.8,282.1,328.1z"/>
+	<g display="inline">
 		<g>
 			<g>
 				<g>
@@ -48,7 +49,58 @@
 			</g>
 		</g>
 	</g>
-	<path fill="#ECF0F1" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M320.4,110.8l-64.1,100.8l-64.1-100.8
-		C235,94.1,277.7,94.4,320.4,110.8z"/>
+	<path display="inline" fill="#ECF0F1" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M320.4,110.8l-64.1,100.8
+		l-64.1-100.8C235,94.1,277.7,94.4,320.4,110.8z"/>
+</g>
+<g>
+	<circle fill="#F1C40F" stroke="#000000" stroke-width="10" stroke-miterlimit="10" cx="257.4" cy="282.8" r="183.3"/>
+	<polyline fill="#F1C40F" stroke="#000000" stroke-width="10" stroke-miterlimit="10" points="89.6,217.5 21.3,45.5 193.2,113.9 	
+		"/>
+	<polyline fill="#F1C40F" stroke="#000000" stroke-width="10" stroke-miterlimit="10" points="425,217.5 492.5,45.5 320.6,113 	"/>
+	<circle stroke="#000000" stroke-miterlimit="10" cx="332.9" cy="252.6" r="58.6"/>
+	<g>
+		<rect x="119.6" y="260.2" width="117.2" height="2.5"/>
+		<g>
+			<path d="M236.8,258.2c-39.1,0-78.1,0-117.2,0c1.5,1.5,3,3,4.5,4.5c0-0.8,0-1.7,0-2.5c-1.5,1.5-3,3-4.5,4.5c39.1,0,78.1,0,117.2,0
+				c-1.5-1.5-3-3-4.5-4.5c0,0.8,0,1.7,0,2.5c0,5.8,9,5.8,9,0c0-0.8,0-1.7,0-2.5c0-2.5-2-4.5-4.5-4.5c-39.1,0-78.1,0-117.2,0
+				c-2.5,0-4.5,2-4.5,4.5c0,0.8,0,1.7,0,2.5c0,2.5,2,4.5,4.5,4.5c39.1,0,78.1,0,117.2,0C242.6,267.2,242.6,258.2,236.8,258.2z"/>
+		</g>
+	</g>
+	<path stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M282.5,327.2l-19.3,25.9c-3.1,4.2-10.9,4.2-14.1,0l-19.3-25.9
+		c-3.1-4.2,0.8-9.4,7-9.4h38.6C281.7,317.8,285.6,323,282.5,327.2z"/>
+	<g>
+		<g>
+			<g>
+				<g>
+					<path d="M254.9,359.9c3.9,0,3.9-6,0-6S251.1,359.9,254.9,359.9L254.9,359.9z"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<path d="M254.7,356.9c0.2,17.5,8,34.4,23.8,43c21.1,11.6,47,3.5,66.8-6.8c3.4-1.8,0.4-7-3-5.2c-17.8,9.3-40.5,16.7-59.9,7.3
+						c-14.6-7.1-21.6-22.7-21.7-38.3C260.7,353,254.7,353,254.7,356.9L254.7,356.9z"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<path d="M257,359.9c3.9,0,3.9-6,0-6C253.2,353.9,253.2,359.9,257,359.9L257,359.9z"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<path d="M251.2,356.9c-0.1,15.5-6.9,30.2-20.8,37.8c-19.1,10.4-43,2.4-60.8-6.8c-3.4-1.8-6.5,3.4-3,5.2
+						c20,10.4,44.4,17.7,65.9,7.3c16.4-7.9,24.5-25.9,24.7-43.5C257.3,353,251.3,353,251.2,356.9L251.2,356.9z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<path fill="#ECF0F1" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M320.5,112.1L257,211.9l-63.4-99.8
+		C235.9,95.6,278.2,95.9,320.5,112.1z"/>
+	<line fill="none" stroke="#000000" stroke-width="7" stroke-miterlimit="10" x1="374" y1="335.5" x2="506" y2="335.5"/>
+	<line fill="none" stroke="#000000" stroke-width="7" stroke-miterlimit="10" x1="371" y1="361.5" x2="480" y2="361.5"/>
+	<line fill="none" stroke="#000000" stroke-width="7" stroke-miterlimit="10" x1="137" y1="335.5" x2="6" y2="335.5"/>
+	<line fill="none" stroke="#000000" stroke-width="7" stroke-miterlimit="10" x1="140" y1="361.5" x2="30" y2="361.5"/>
 </g>
 </svg>
